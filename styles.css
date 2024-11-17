@@ -1,0 +1,65 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border-style: groove;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 1em;
+    color: #666;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
