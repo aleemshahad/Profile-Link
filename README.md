@@ -1,7 +1,7 @@
 # Hi there, I'm [Aleem Shahzad] 👋
 
 ## About Me
-I'm a passionate software developer with a love for creating innovative solutions. I specialize in [Python] and have experience in [Other Skills].
+I'm a passionate software developer with a love for creating innovative solutions. I specialize in Python and have experience in Other Skills.
 
 ## Skills
 - **Languages**: Python, JavaScript, Html , CSS 
