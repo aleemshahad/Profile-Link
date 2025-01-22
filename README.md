@@ -1,22 +1,13 @@
-# Profile-Link
+# Hi there, I'm [Aleem Shahzad] 👋
 
-A simple and aesthetic app to showcase all your social media links in one place.
+## About Me
+I'm a passionate software developer with a love for creating innovative solutions. I specialize in [Python] and have experience in [Other Skills].
 
-## Features
-- **Responsive Design**: Works on all devices.
-- **Customizable**: Easily add your own links and profile picture.
-- **Free to Use**: Hosted on GitHub Pages.
+## Skills
+- **Languages**: Python, JavaScript, Html , CSS 
+- **Frameworks**: React, Node.js, Django
+- **Tools**: Git,
 
-## Setup Instructions
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/aleemshahad/Profile-Link.git
-
----
-
-### **Benefits of Having a README**
-- Makes your project self-explanatory.
-- Attracts contributors if your project is public.
-- Improves your project’s presentation on GitHub.
-
-Let me know if you'd like me to generate the content for your README file directly!
+## Fun Facts
+- 🎸 I love playing the guitar.
+- 🌍 I enjoy traveling and exploring new cultures.
