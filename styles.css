@@ -1,18 +1,44 @@
-/* Reset */
+/* Root Variables for Colors and Gradients */
+:root {
+    --primary-bg: #f4f4f9;
+    --primary-text: #333;
+    --secondary-text: #666;
+    --card-bg: #fff;
+    --gradient-start: #ff8a00;
+    --gradient-end: #e52e71;
+    --hover-gradient-start: #e52e71;
+    --hover-gradient-end: #ff8a00;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-bg: #121212;
+        --primary-text: #f4f4f9;
+        --card-bg: #1e1e1e;
+        --secondary-text: #aaa;
+    }
+}
+
+/* Global Reset */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Ensures responsiveness */
 }
 
+/* Container Styling */
 .container {
     text-align: center;
-    background: #fff;
+    background: var(--card-bg);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -20,6 +46,7 @@ body {
     max-width: 400px;
 }
 
+/* Profile Section */
 .profile {
     margin-bottom: 20px;
 }
@@ -30,36 +57,68 @@ body {
     border-radius: 50%;
     margin-bottom: 10px;
     border-style: groove;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .profile h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin: 10px 0;
 }
 
 .profile p {
-    font-size: 1em;
-    color: #666;
+    font-size: 1rem;
+    color: var(--secondary-text);
+    margin: 10px 0;
 }
 
+/* Links Section */
 .links {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/* Button Styling */
 .btn {
     text-decoration: none;
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
     color: #fff;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* Responsive padding */
     border-radius: 50px;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    transition: background 0.3s;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .btn:hover {
-    background: linear-gradient(90deg, #e52e71, #ff8a00);
+    background: linear-gradient(90deg, var(--hover-gradient-start), var(--hover-gradient-end));
+    transform: translateY(-2px);
+}
+
+.btn:focus {
+    outline: 2px solid var(--gradient-start);
+    outline-offset: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
 }
