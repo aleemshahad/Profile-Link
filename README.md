@@ -8,7 +8,7 @@ I'm a passionate software developer with a love for creating innovative solution
 - 👯 I’m looking to collaborate on open-source projects and interesting startups.
 - 🤔 I’m looking for help with contributing to major open-source projects.
 - 💬 Ask me about anything related to web development, Python, or cloud technologies.
-- 📫 How to reach me: [aleem.shahad@example.com](mailto:aleem.shahad@example.com)
+- 📫 How to reach me: [aleemssg@gmail.com](mailto:aleemssg@gmail.com)
 - ⚡ Fun fact: I love playing chess and hiking in my free time.
 
 ## GitHub Stats
